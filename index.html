@@ -5,6 +5,7 @@
     <meta name="author" content="Yo jaja">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Resultados deportivos en vivo.">
+    <meta name="keywords" content="resultados deportivos, fútbol en vivo, tenis, baloncesto, Flashscore">
     <title>Flashscore - Resultados Deportivos</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
@@ -13,49 +14,48 @@
     <header>
         <img src="images/flashscore.webp" alt="Flashscore Logo" class="logo" width="120" height="40">
         <h1>Resultados Deportivos en Vivo</h1>
+        <!-- Navegación principal -->
+        <nav>
+            <a href="#futbol">Fútbol</a>
+            <a href="#tenis">Tenis</a>
+            <a href="#baloncesto">Baloncesto</a>
+        </nav>
     </header>
-    
-    <!-- Navegación principal -->
-    <nav>
-        <a href="#futbol">Fútbol</a>
-        <a href="#tenis">Tenis</a>
-        <a href="#baloncesto">Baloncesto</a>
-    </nav>
     
     <main>
         <!-- Sección de resultados de fútbol -->
         <section id="futbol" class="resultados" aria-labelledby="titulo-futbol">
             <h2 id="titulo-futbol">Fútbol</h2>
-            <div class="partido">
+            <article class="partido">
                 <strong class="equipo">Real Madrid</strong>
                 <span>2 - 1</span>
                 <strong class="equipo">Barcelona</strong>
-            </div>
-            <div class="partido">
+            </article>
+            <article class="partido">
                 <strong class="equipo">Liverpool</strong>
                 <span>1 - 3</span>
                 <strong class="equipo">Arsenal</strong>
-            </div>
+            </article>
         </section>
         
         <!-- Sección de resultados de tenis -->
         <section id="tenis" class="resultados" aria-labelledby="titulo-tenis">
             <h2 id="titulo-tenis">Tenis</h2>
-            <div class="partido">
+            <article class="partido">
                 <strong class="equipo">Nadal</strong>
                 <span>6 - 4, 3 - 6, 7 - 5</span>
                 <strong class="equipo">Djokovic</strong>
-            </div>
+            </article>
         </section>
         
         <!-- Sección de resultados de baloncesto -->
         <section id="baloncesto" class="resultados" aria-labelledby="titulo-baloncesto">
             <h2 id="titulo-baloncesto">Baloncesto</h2>
-            <div class="partido">
+            <article class="partido">
                 <strong class="equipo">Lakers</strong>
                 <span>102 - 98</span>
                 <strong class="equipo">Warriors</strong>
-            </div>
+            </article>
         </section>
     </main>
     
