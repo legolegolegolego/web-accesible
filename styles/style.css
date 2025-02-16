@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+/* ======================== */
+/*         GENERAL         */
+/* ======================== */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -7,6 +10,10 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* ======================== */
+/*         HEADER          */
+/* ======================== */
 header {
     background: #004080;
     color: white;
@@ -17,16 +24,22 @@ header {
     justify-content: center;
     gap: 15px;
 }
+
 header .logo {
     height: 40px; 
     width: auto;
 }
+
+/* ======================== */
+/*       NAVIGATION        */
+/* ======================== */
 nav {
     display: flex;
     justify-content: center;
     background: #002D62;
     padding: 10px;
 }
+
 nav a {
     color: white;
     text-decoration: none;
@@ -34,39 +47,54 @@ nav a {
     padding: 10px;
     font-size: 18px;
 }
+
 nav a:focus, nav a:hover {
     background: #00509E;
     border-radius: 5px;
 }
+
+/* ======================== */
+/*         CONTENT         */
+/* ======================== */
 main {
     padding: 20px;
 }
+
 .resultados {
     background: white;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 .partido {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 10px;
     border-bottom: 1px solid #ddd;
     min-height: 50px;
+    gap: 10px;
 }
+
+.partido strong {
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
 .partido span {
     flex: 1;
     text-align: center;
 }
+
 .equipo {
-    font-weight: bold;
     text-align: left;
 }
-.resultado {
-    text-align: center;
-    font-weight: bold;
-}   
+
+/* ======================== */
+/*         FOOTER          */
+/* ======================== */
 footer {
     background: #004080;
     color: white;
